@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Permanent+Marker&family=Rubik+Vinyl&display=swap");
+.pokemon-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.pokemon-card {
+  width: 25%;
+  height: 65vh;
+  background-color: #fff;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid;
+}
+.circle-section {
+  width: 100%;
+  height: 80%;
+  background-color: pink;
+  margin: auto;
+  border-radius: 0% 0% 50% 50%;
+  position: relative;
+  top: -30%;
+}
+.pokemon-img {
+  width: 150px;
+  height: 150px;
+}
+.pokemon-data {
+  position: absolute;
+  top: 15%;
+  left: 29%;
+}
+.pokemon-name {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Permanent Marker", cursive;
+  margin: 0;
+  padding: 0;
+}
+.pokemon-attack {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pokemon-action-basic-stat {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
+  margin: 0;
+  padding: 0;
+}
+.pokemon-action-type {
+  font-size: 15px;
+  font-family: "Courgette", cursive;
+  margin: 0;
+  padding: 0;
+}
+.type {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  background-color: red;
+  color: #fff;
+}
+
+.generate-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+}
